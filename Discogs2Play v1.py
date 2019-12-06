@@ -21,8 +21,8 @@ def trackdict(artist, track, year):
 ########################################
 label_name = 'Altered reality records'
 playlist_name = 'AutoARR'
-how_many_releases = 0 #Leave at 0 for max
-how_many_tracks = 20
+how_many_releases = 0 #Leave at 0 for all release - Limit this for labels with lots of releases!
+how_many_tracks = 20 
 descending = True #True means reverse chronological order, eg. recent first
 #======================================#
 
