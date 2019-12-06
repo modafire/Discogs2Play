@@ -73,7 +73,7 @@ for i in range(len(release_ids)):
 if descending ==True:
     release_dicts_sorted = (sorted(release_dicts, key=lambda i: i['year'], reverse=True))
 else:
-    release_dicts_sorted = (sorted(release_dicts, key=lambda i: i['year'])
+    release_dicts_sorted = (sorted(release_dicts, key=lambda i: i['year']))
 
 
 def makeplaylist(track_dicts, playlist_name='Autoplaylist', size=20):
