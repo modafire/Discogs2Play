@@ -8,8 +8,8 @@ api = Mobileclient()
 mm = Musicmanager()
 mm.login()
 api.__init__(debug_logging=True, validate=True, verify_ssl=True)
-#api.perform_oauth(storage_filepath="C:/users/dan/desktop/file", open_browser=False)
-api.oauth_login('90324B00B333', "C:/users/dan/desktop/file")
+# credentials below
+api.oauth_login('000000000', "C:/users/file")
 
 def trackdict(artist, track, year):
     #Puts track info into a dictionary
